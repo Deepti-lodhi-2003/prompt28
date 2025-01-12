@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right,#f6f193d3, #f2c18d9c);
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #1a2b58;
+    margin-bottom: 20px;
+}
+.title h1{
+    font-size: 4rem;
+    margin-top: 1.5px;
+}
+
+.subtitle {
+    font-size:2rem;
+    color: #1a2b58;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: -35px;
+}
+
+.color-rule {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.color-block {
+    width: 80px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.color-60 {
+    background-color: #fbe9e7;
+    color: #000;
+}
+
+.color-30 {
+    background-color: #c8e6c9;
+    color: #000;
+}
+
+.color-10 {
+    background-color: #912a63;
+    color: #000;
+}
+
+.mockup {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mockup-header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 8px;
+    background-color: #f0f0f0;
+}
+
+.mockup-header span {
+    width: 12px;
+    height: 12px;
+    margin-right: 6px;
+    /* background-color: #ccc; */
+    border-radius: 50%;
+}
+.spn1{
+    background-color: #6e1717;
+}
+.spn2{
+    background-color:rgb(197, 197, 18);
+}
+.spn3{
+    background-color:green;
+}
+
+.mockup-body {
+    background-color: #c8e6c9;
+    padding: 20px;
+    position: relative;
+}
+
+.mockup-body h1 {
+    background-color: #912a63;
+    /* padding: 10px 20px; */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    color: #fff;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    z-index: 100;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.mockup-body .background {
+    background-image: url(leaf.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer {
+    background-color: #1a2b58;
+    color: #fff;
+    text-align: center;
+    padding: 18px 0;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .color-rule {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .color-block {
+        width: 60px;
+        height: 80px;
+    }
+}
